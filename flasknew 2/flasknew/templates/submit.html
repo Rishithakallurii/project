@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Output</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <style>
+        body {
+            background-image: url("https://c0.wallpaperflare.com/preview/534/41/125/school-books-young-adult-education.jpg");
+            background-size: cover;
+        }
+
+        .btn-info{  
+            color: black;
+            border-color:black ;  
+        }
+
+        .btn-info:hover{
+            border-color: lightgray;
+            color:white
+        }
+
+    </style>
+</head>
+
+<body>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 bg-light text-right">
+                <a href="{{ url_for('front') }}" class="btn btn-info btn-lg">Home</a>
+                <a href="{{ url_for('predict') }}" class="btn btn-info btn-lg">Predict</a>
+            </div>
+        </div>
+        <h1><strong>Score prediction</strong></h1><br>
+        <h3>
+            Based on the given input, the suitable score is {{prediction}}.
+        </h3>
+    </div>
+</body>
+</html>
