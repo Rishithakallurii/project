@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>University Score Prediction</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <style>
+        body {
+            background-image: url("https://c0.wallpaperflare.com/preview/534/41/125/school-books-young-adult-education.jpg");
+            background-size: cover;
+        }
+
+        h3.medium {
+            line-height: 1.8;
+            position: absolute;
+            color: black;
+            padding: 20px;
+            bottom: 0;
+            left: 0;
+            width: 50%;
+            box-sizing: border-box;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        p {
+            position: absolute;
+            color: black;
+            left: 28rem;
+            padding: 20px;
+            top: 1rem;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: lightgray;
+            background-color: lightgray(0,0,0,0);
+            border: 2px solid black;
+            width: 52%;
+            z-index: 2;
+            font-size: 40px;
+        }
+
+        .navbar {
+            
+            background-color:lightgray; 
+            border-color: lightgray;
+            border: 0px;
+        }
+
+        .navbar-header {
+            padding: 25px;
+            
+        }
+
+        .btn-info {
+            
+            color: black;
+            border-color: black;
+            position: absolute;
+            top: 50px;
+            right: 90px;
+        }
+
+        .btn-info:hover {
+            border-color: lightgray;
+            color: white;
+        }
+
+        .btn-primary {
+           
+            color: black;
+            border-color:black;
+            position: absolute;
+            top: 50px;
+            left: 90px;
+            
+        }
+
+        .btn-primary:hover {
+            background-color: lightgray; 
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#"><p>UNIVERSITY SCORE PREDICTION</p></a>
+                    </div>
+                </div>
+            </nav>
+                <a href="{{ url_for('front') }}" class="btn btn-primary disabled btn-lg">Home</a>
+                <a href="{{ url_for('predict') }}" class="btn btn-info btn-lg">Predict</a>
+        </div>
+
+        <h3 class="medium"><em>The purpose of the University Score Prediction Web Application is to empower 
+            students and parents with a data-driven tool for making informed decisions about higher education.
+            The project aims to predict university scores based on essential parameters such as education 
+            quality, alumni employment, faculty credentials, and research impact. The application simplifies 
+            the decision-making process, offering real-time score predictions. Ensuring that users receive 
+            accurate and relevant information to guide their educational journey.
+        </em></h3><br>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
