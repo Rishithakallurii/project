@@ -1,4 +1,5 @@
 project : Predicting University scores using Machine Learning
+
 overview:
 The University Score Prediction Web Application utilizes machine learning to forecast
 university scores based on parameters like education quality, alumni employment, faculty 
