@@ -9,6 +9,7 @@ accountable tool for informed decision-making in higher education selection. Ult
 project seeks to empower users by simplifying the complex process of university selection, 
 providing a quick, accurate, and accessible solution for making well-informed educational 
 choices
+
 Steps involved in making of the project: 
 1. Collection of data (dataset) for the project.
 2. Exploratory Data Analysis:
